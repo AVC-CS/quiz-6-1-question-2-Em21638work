@@ -1,10 +1,10 @@
 import os
 
 def main():
-    if not os.path.exists('employee.txt'):
+    if not os.path.exists('data.txt'):
         result = False
 
-    with open('employee.txt') as fileobj:
+    with open('data.txt') as fileobj:
         lines = fileobj.readlines()
         numoflines = len(lines)
         print('Num of lines: ', numoflines)

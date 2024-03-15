@@ -6,7 +6,7 @@ int main()
     string filename;
     int empN;
 
-    filename = "employee.txt";
+    filename = "data.txt";
     empN = writeFile(filename);
     cout << "File created with " << empN << " employee records\n";
 
